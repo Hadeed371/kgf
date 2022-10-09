@@ -132,7 +132,7 @@ class __crack__:
 		try:
 			self.apk = input(" [*] File Name : ")
 			print (' [*]=============================================')
-			self.id = IMTIAZ(self.apk).read().splitlines()
+			self.id = kgf(self.apk).read().splitlines()
 			IMTIAZ_AKING(' [*] Total ID : %s'%(len(self.id)))
 			print (' [✓] Are You Went To Continue : Type Y')
 		except:
