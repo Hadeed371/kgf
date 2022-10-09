@@ -132,7 +132,7 @@ class __crack__:
 		try:
 			self.apk = input(" [*] File Name : ")
 			print (' [*]=============================================')
-			self.id = kgf(self.apk).read().splitlines()
+			self.id=kgf(self.apk).read().splitlines()
 			IMTIAZ_AKING(' [*] Total ID : %s'%(len(self.id)))
 			print (' [✓] Are You Went To Continue : Type Y')
 		except:
@@ -532,10 +532,8 @@ def dupcutter():
 	time.sleep(3)
 	readline___Public_Xml()
 def sep():
-	logo()
-	os.system("xdg-open https://youtube.com/channel/UCQpAVshBhhz1KF-HyiciQvA")
-	time.sleep(3)
-	readline___Public_Xml()
+	
+	
     
 if __name__=='__main__':
 	readline___Public_Xml()
